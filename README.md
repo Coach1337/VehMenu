@@ -8,7 +8,7 @@
 
 ## VehMenu #EN#
 
-* This script allows you to controll your car's doors, hood and trunk.
+* This script allows you to control your car's doors, hood and trunk.
 
 * Default key is: "F10"
 
