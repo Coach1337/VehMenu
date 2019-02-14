@@ -17,7 +17,7 @@ local Keys = {
 ESX = nil
 
 
-local przycisk = 47 --WYBIERANIE PRZYCISKU KTÓRY OTWIERA MENU(U GÓRY LISTA SKRÓTÓW)
+local przycisk = 57 --WYBIERANIE PRZYCISKU KTÓRY OTWIERA MENU(U GÓRY LISTA SKRÓTÓW)
 
 --##URUCHOMIENIE ESX##
 
@@ -221,7 +221,7 @@ end)
 Citizen.CreateThread(function()
   while true do
     Wait(1)
-    if IsControlJustReleased(0, 57) then
+    if IsControlJustReleased(0, przycisk) then
       OtworzMenu()
     end
   end
